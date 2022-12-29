@@ -1,0 +1,87 @@
+:root {
+    --darkblue: #363f5f;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #F0F2F5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: min(90vw, 800px);
+    margin: auto;
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    color: var(--darkblue);
+    font-weight: normal;
+}
+
+/* HEADER */
+header {
+    background-color: #2D4A22;
+    padding: 2rem 0 10rem;
+    text-align: center;
+
+}
+
+#logo {
+    color: #fff;    
+    font-weight: 100;
+}
+
+/* BALANCE */
+#balance {
+    margin-top: -8rem;
+}
+
+#balance h2 {
+    color: #fff;
+    margin-top: 0;
+    
+}
+
+/* CARD */
+.card {
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+    color: var(--darkblue);
+}
+
+.card h3 {
+    font-weight: normal;
+    font-size: 1rem;
+
+}
+
+.card p {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.card.total {
+    background: #49AA26;
+    color: #fff;
+}
+
+/* Table */
+#transiction {
+    
+}
+/* FOOTER */
+footer {
+    text-align: center;
+}
+
