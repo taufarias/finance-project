@@ -1,2 +1,2 @@
-# finance-project
+# Finance Project
 Project for financial control.
